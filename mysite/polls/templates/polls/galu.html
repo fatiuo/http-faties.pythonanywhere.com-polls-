@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="p-3 m-0 border-0 bd-example">
+    
+<div class="container-fluid blue-bg">
+  <div class="container">
+    <h2 class="pb-3 pt-2"></h2>
+    <!--first section-->
+    
+      <div class="col-2 text-center bottom">
+      
+      </div>
+      <div class="col-6">
+        <h5>گلودرد</h5>
+        <p>گلو درد در کودکان بسیار شایع است و ممکن است با درد همراه باشد. با این وجود گلو دردی که ناشی از ویروس باشد نیازی به آنتی بیوتیک ندارد. در این موارد داروی خاصی لازم نیست و کودک شما باید طی هفت تا ده روز بهتر شود. در موارد دیگر گلودرد ممکن است در اثر عفونتی به نام استرپتوکوک ایجاد شود. عفونت استرپتوکوکی را نمی‌توان به سادگی با معاینه گلو تشخیص داد. برای تشخیص استرپتوکوک یا باید تست آزمایشگاهی انجام شود و یا پزشک در مطب یک آزمایش سریع با استفاده از نمونه برداری با سواب از گلو انجام دهد. اگر آزمایش استرپتوکوک مثبت باشد، پزشک متخصص اطفال آنتی بیوتیک تجویز می کند. این بسیار مهم است که کودکتان طول دوره درمان با آنتی بیوتیک را، حتی اگر علائم بهتر شده یا برطرف شده باشند، ادامه دهد. داروهای استروئیدی (مانند پردنیزون) برای بسیاری از موارد گلودرد درمان مناسبی نیستند. نوزادان و کودکان نوپا به ندرت دچار گلودرد استرپتوکوکی می شوند، اما کودکانی که در مراکز مراقبت از کودکان نگه داری می شوند یا خواهر و برادر بزرگترشان این بیماری را دارد بیشتر در معرض گرفتن این بیماری را دارند. اگرچه استرپتوکوک عمدتاً از طریق سرفه و عطسه پخش می شود، کودک می تواند با لمس اسباب بازی ای که کودک آلوده با آن بازی کرده این بیماری را بگیرد</p>
+      </div>
+    </div>
+    <!--path between 1-2-->
+    <div class="row timeline">
+      <div class="col-2">
+        <div class="corner top-right"></div>
+      </div>
+      <div class="col-8">
+        <hr/>
+      </div>
+      <div class="col-2">
+        <div class="corner left-bottom"></div>
+      </div>
+    </div>
+    <!--second section-->
+    <div class="row align-items-center justify-content-end how-it-works">
+      <div class="col-6 text-right">
+        <h5>روش خانگی درمان گلو درد</h5>
+       
+        <p>بیشتر گلو دردها با درمان خانگی بهبود پیدا می کنند. تنها باید برای مدتی استراحت کافی داشته باشید تا به سیستم ایمنی بدنتان فرصتی برای مقابله با عفونت بدهید. برای تسکین درد گلو می توانید: مخلوط آب گرم و نیم تا 1 قاشق چای خوری نمک را غرغره کنید. برای کاهش درد، مایعات گرم مانند چای داغ با عسل، سوپ یا آب گرم با لیمو بنوشید. چای های گیاهی هم تسکین دهنده های بسیار خوبی برای درد گلو هستند. یک خوردنی سرد مانند بستنی یخی بخورید. یک تکه آب نبات یا شکلات سخت را به آرامی بخورید. از دستگاه بخور برای افزایش رطوبت هوا استفاده کنی</p>
+      </div>
+
+      </div>
+    </div>
+    <!--path between 2-3-->
+  
+   
+<style>
+html,
+body {
+  font: 100% "Lato", sans-serif;
+  font-weight: 900;
+  height: 100%;
+  background-color: #4D4545;
+}
+
+.blue-bg {
+  background-color: #4D4545;
+  color: #ED8D8D;
+  height: 100%;
+}
+
+.circle {
+  font-weight:900;
+  padding: 20px 20px;
+  border-radius: 50%;
+  background-color: #ED8D8D;
+  color: #4D4545;
+  max-height: 65px;
+  z-index: 2;
+}
+
+.how-it-works.row {
+  display:flexbox;
+}
+.how-it-works.row .col-2 {
+  display: inline-flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.how-it-works.row .col-2::after {
+  content: "";
+  position: absolute;
+  border-left: 3px solid #ED8D8D;
+  z-index: 1;
+}
+.how-it-works.row .col-2.bottom::after {
+  height: 50%;
+  left: 50%;
+  top: 50%;
+}
+.how-it-works.row .col-2.full::after {
+  height: 100%;
+  left: calc(50% - 3px);
+}
+.how-it-works.row .col-2.top::after {
+  height: 50%;
+  left: 50%;
+  top: 0;
+}
+
+.timeline div {
+  padding: 0;
+  height: 40px;
+}
+.timeline hr {
+  border-top: 3px solid #ED8D8D;
+  margin: 0;
+  top: 17px;
+  position: relative;
+}
+.timeline .col-2 {
+  display: flex;
+  overflow: hidden;
+}
+.timeline .corner {
+  border: 3px solid #ED8D8D;
+  width: 100%;
+  position: relative;
+  border-radius: 15px;
+}
+.timeline .top-right {
+  left: 50%;
+  top: -50%;
+}
+.timeline .left-bottom {
+  left: -50%;
+  top: calc(50% - 3px);
+}
+.timeline .top-left {
+  left: -50%;
+  top: -50%;
+}
+.timeline .right-bottom {
+  left: 50%;
+  top: calc(50% - 3px);
+}
+</style>
